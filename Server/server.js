@@ -9,7 +9,7 @@ const PORT = 3000;
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect("mongodb://localhost:27017/Habithub", {
+mongoose.connect("mongodb+srv://princesolankiprincesolanki020:Y96m1RqvD8if83fv@cluster0.zuram.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => console.log("✅ MongoDB Connected"))
